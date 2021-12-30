@@ -6,9 +6,13 @@ const HomeScreen = ({ navigation }) => {
     <View>
 
       <Button title="Go to Component screen" onPress={() => navigation.navigate("Components")} />
-      <TouchableOpacity onPress={() => navigation.navigate("List")}>
+      <Button
+        title="Go to list Component"
+        onPress={() => navigation.navigate("List")}
+      />
+      {/* <TouchableOpacity onPress={() => navigation.navigate("List")}>
         <Text>Go to List screen</Text>
-      </TouchableOpacity>
+      </TouchableOpacity> */}
     </View >
   )
 };
