@@ -17,22 +17,28 @@ const styles = StyleSheet.create({
         height: 200,
         borderWidth: 3,
         borderColor: 'black',
-        flexDirection: 'row'
+        // flexDirection: 'row',
+        alignItems: 'center'
     },
     textOneStyles: {
         borderWidth: 1,
         borderColor: 'red',
-        flexStart: 4
+        // flexStart: 4
+        // alignSelf: 'center',
+        // position: 'absolute',
+        top: 30
     },
     textTwoStyles: {
         borderWidth: 1,
         borderColor: 'red',
-        flexStart: 4
+        // flexStart: 4,
+        // alignSelf: 'flex-end'
     },
     textThreeStyles: {
         borderWidth: 1,
         borderColor: 'red',
-        flexStart: 4
+        // flexStart: 4,
+        // alignSelf: 'flex-start'
     }
 });
 export default BoxScreen;
