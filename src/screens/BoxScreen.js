@@ -32,7 +32,14 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: 'red',
         // flexStart: 4,
-        // alignSelf: 'flex-end'
+        // alignSelf: 'flex-end',
+
+        // position: 'absolute',
+        // top:0,
+        // bottom:0,
+        // left:0,
+        // right:0,
+        ...StyleSheet.absoluteFillObject
     },
     textThreeStyles: {
         borderWidth: 1,
